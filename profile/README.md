@@ -1,16 +1,19 @@
 # Indiana Farmers Mutual Insurance GitHub
 
 ## Git Best Practices
-1. Branching
+1. Repositories
+    - Repo naming convention: {teamName}_{projectName}
+    - Divide repos into logical project sizes (API, libraries, etc.)
+2. Branching
     - Always create branches off of the [dev] branch for distinct work items. One branch = one feature
-    - Branch naming convention: {work item number}\_{feature summary}\_{author}
-2. Commits
+    - Branch naming convention: {work item number}\_{featureSummary}\_{author}
+3. Commits
     - Do not commit broken code
     - Write descriptive commit messages
     - Make commits frequently with incremental changes (ideally less than 50 lines)
     - Changes must be solely related to the branch feature/work item
     - Avoid adding referenced projects/files to git unless absolutely necessary
-3. Merging
+4. Merging
     - Always create pull requests to merge your working branch into [dev]
     - Obtain code review approval from at least 1 (2?) other person (people)
     - If your merge contains conflicts, add the developer who made the conflicting changes to the reviewer list to assist in resolving them
