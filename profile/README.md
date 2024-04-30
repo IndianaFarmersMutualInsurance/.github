@@ -5,8 +5,8 @@
     - Repo naming convention: {teamName}_{projectName}
     - Divide repos into logical project sizes (API, libraries, etc.)
 2. Branching
-    - Always create branches off of the [dev] branch for distinct work items. One branch = one feature
     - Branch naming convention: {work item number}\_{featureSummary}\_{author}
+    - Always create branches off of the [dev] branch for distinct work items. One branch = one feature
 3. Commits
     - Do not commit broken code
     - Write descriptive commit messages
