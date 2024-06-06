@@ -3,7 +3,8 @@
 ## Git Best Practices
 1. Repositories
     - Repo naming convention: {teamName}_{projectName}
-    - Divide repos into logical project sizes (API, libraries, etc.)
+    - Divide repositorys into logical project sizes (API, libraries, etc.)
+    - Each repository should have a readme.md markdown file in the top directory that describes at a high level what is in the repository and how it is organized. 
 2. Branching
     - Each team will design and document a branching strategy
     - References about strategies [Patterns for Managing Source Code Branches](https://martinfowler.com/articles/branching-patterns.html)
